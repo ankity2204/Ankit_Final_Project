@@ -154,7 +154,7 @@ body {
     justify-content: center;
     gap:50px;
     max-width: 1000px;
-    /margin: 0 auto;/
+    margin: 0 auto;
 }
  /*.profile-figure{
     flex: 1;
