@@ -5,7 +5,17 @@
  padding: 0;
  box-sizing: border-box;
 }
-
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top:80px;
+}
+.site-header{
+    position:sticky;
+    top:0;
+    z-index: 1000;
+    background: var(--primary);
+    transition: background 0.3s ease,box-shadow 0.3s ease; /*day9*/
+}
 /* CSS Custom Properties (variables) - DRY Principle */
 :root {
  --primary: #1B4F72;
@@ -22,6 +32,7 @@ body {
  line-height: 1.6;
  background-color: var(--white);
 }
+
 /* NAVIGATION */
 .navbar {
  display: flex;
@@ -304,4 +315,9 @@ section h2::after{
         display:flex;
  
     }
+
 }
+.site-header.scrolled{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+ 
