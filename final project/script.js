@@ -105,7 +105,6 @@ document.querySelectorAll('.filter-btn').forEach(btn =>{
  
 //Intial render
 renderProjects();
-
 // FORM VALIDATION
 const form = document.querySelector('#contact-form');
  
@@ -179,4 +178,3 @@ function clearErrors(){
         updateThemeIcon(nexTheme);
     })
  }
- 
